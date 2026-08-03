@@ -1,0 +1,9 @@
+{
+  "name": "Jennifer Blanco — Brand & Growth Marketing",
+  "short_name": "Jennifer Blanco",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F1EA",
+  "theme_color": "#191612",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

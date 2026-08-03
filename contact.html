@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Jennifer Blanco</title>
+<meta name="description" content="Book an interview with Jennifer Blanco, or start a conversation about a project. She replies within one business day." />
+<link rel="canonical" href="https://www.jenniferblanco.com/contact.html" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="index.html">Jennifer&nbsp;<b>Blanco</b></a>
+    <ul class="nav-links">
+      <li><a href="work.html">Work</a></li>
+      <li><a href="strategy.html">Strategy</a></li>
+      <li><a href="photography.html">Photography</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="res-link" href="assets/docs/jennifer-blanco-resume.pdf">Résumé <span aria-hidden="true">↓</span></a>
+      <a class="btn" href="contact.html" aria-current="page">Book an interview <span class="arr" aria-hidden="true">→</span></a>
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero wrap">
+    <p class="eyebrow accent reveal">Contact</p>
+    <h1 class="reveal d1" style="font-size:var(--step-5);letter-spacing:-.035em;max-width:15ch">If you've read this far, let's talk.</h1>
+    <p class="lead reveal d2" style="margin-top:24px;max-width:56ch">You already know what I do. The only question left is whether I'm the right fit for your team or your project, and that's a short conversation, not a cover letter. Tell me a little about the role and I'll reply within one business day.</p>
+  </section>
+
+  <section class="section wrap" style="padding-top:20px">
+    <div class="contact-grid">
+      <div class="reveal">
+        <!-- To activate: create a free Formspree form and replace YOUR_FORM_ID below.
+             Until then the form falls back to opening the visitor's email client via the mailto action. -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Rivera" required /></div>
+          <div class="field"><label for="company">Company</label><input id="company" name="company" type="text" placeholder="Where you're hiring for, or your business" /></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@company.com" required /></div>
+          <div class="field"><label for="message">The role or project, and what you're hoping to solve</label><textarea id="message" name="message" rows="4" placeholder="A sentence or two is plenty."></textarea></div>
+          <button class="btn" type="submit">Send &amp; start the conversation <span class="arr" aria-hidden="true">→</span></button>
+        </form>
+      </div>
+
+      <div class="reveal d1">
+        <div class="contact-rail">
+          <div class="row"><div class="k">Email</div><div class="v"><a data-slot="email" href="#">hello@jenniferblanco.com</a></div></div>
+          <div class="row"><div class="k">Book directly</div><div class="v"><a data-slot="booking" href="#">Grab 15 minutes <span aria-hidden="true">→</span></a></div></div>
+          <div class="row"><div class="k">LinkedIn</div><div class="v"><a data-slot="linkedin" href="#">/in/jenniferblanco</a></div></div>
+          <div class="row"><div class="k">Based in</div><div class="v">San Diego, California</div></div>
+        </div>
+        <p class="lead" style="margin-top:28px;font-size:1rem">Recruiters and founders: if it's easier to just put time on the calendar, use the booking link. I keep a few slots open every week for hiring and project conversations.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <p class="foot-brand">Let's build a brand people remember.</p>
+      <div class="foot-cols">
+        <div class="foot-col"><h4>Explore</h4><a href="work.html">Work</a><a href="strategy.html">Strategy</a><a href="photography.html">Photography</a></div>
+        <div class="foot-col"><h4>More</h4><a href="about.html">About</a><a href="assets/docs/jennifer-blanco-resume.pdf">Résumé</a><a href="contact.html">Contact</a></div>
+        <div class="foot-col"><h4>Connect</h4><a href="#" data-slot="linkedin">LinkedIn</a><a href="#" data-slot="email">Email</a><a href="contact.html">Book a call</a></div>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© <span data-year>2026</span> Jennifer Blanco. Brand &amp; Growth Marketing.</span><span>Designed and built by Jennifer Blanco.</span></div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
